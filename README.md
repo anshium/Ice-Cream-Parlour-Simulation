@@ -43,8 +43,11 @@ Make sure to colour code your output using the specified colours.
 
 ### INPUT FORMAT (EVERYTHING IS SPACE SEPARATED):
 
-- The first line contains N K F T The next N lines contain machine timings tm_start tm_stop The next F lines contain f t_f The next T lines contain t q_t [Note: q_t will be given -1 for unlimited quantity]
-- The rest of the lines will have the structure c t_arr number of ice creams they want to order flavour of ice cream 1 topping 1 topping 2 … topping n … flavour of ice cream n topping 1 topping 2 … topping n
+- - The first line contains `N K F T`
+  - The next N lines contain machine timings `tm_start tm_stop`
+  - The next F lines contain `f t_f`
+  - The next T lines contain `t q_t` [Note: q_t will be given -1 for unlimited quantity]
+- The rest of the lines will have the structure `c t_arr number of ice creams they want to order flavour of ice cream 1 topping 1 topping 2 … topping n … flavour of ice cream n topping 1 topping 2 … topping n`
 
 ### OUTPUT FORMAT:
 - When a customerc enters at time t, print [white colour] Customer c enters at t second(s)
